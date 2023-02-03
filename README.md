@@ -1,2 +1,3 @@
 # ViewModelsIOS
-Scoped, Statically typed ViewModels for iOS 
+
+ViewModel caching layer for iOS that supports scoping
