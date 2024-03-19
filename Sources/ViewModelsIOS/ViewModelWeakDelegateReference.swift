@@ -11,7 +11,7 @@ import Foundation
 public class ViewModelWeakDelegateReference<T: AnyObject & Hashable>: Hashable {
         
     public weak var reference : T?
-    public var hash: Int?
+    public var hash: Int
     
     init (_ reference: T) {
         self.reference = reference
